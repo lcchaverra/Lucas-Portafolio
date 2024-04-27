@@ -28,7 +28,7 @@ const About = () => {
                                 <input type="radio" id="experience-1" name="my-accordion-3" placeholder="."/> 
                                 <label htmlFor="experience-1"></label>    
                                 <div className="collapse-title text-xl font-medium">
-                                    Junior Software Developer | HelppeopleCloud (Nov 2023 - Feb 2024)
+                                    Junior Software Developer | HelppeopleCloud (Nov 2023 - Actualidad)
                                 </div>
                                 <div className="collapse-content"> 
                                     <p>Desarrollé nuevos requerimientos y soportes de aplicaciones web ya existentes utilizando tecnologias como React Js y Asp.net core.</p>
