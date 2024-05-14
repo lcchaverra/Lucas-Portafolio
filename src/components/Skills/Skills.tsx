@@ -8,7 +8,7 @@ const Skills = () => {
                 <div className="card w-full min-h-full bg-primary text-primary-content">
                     <div className="card-body">
                         <h2 className="card-title">Frontend</h2>
-                        <div className="grid grid-cols-2 gap-3 md:grid-cols-4 lg:grid-cols-6">
+                        <div className="grid grid-cols-2 gap-3 md:grid-cols-4 lg:grid-cols-6 place-items-center">
                             <Image src="/img/tec/html-5.png" width={100} height={100} className='w-20' alt="Frontend logo" />
                             <Image src="/img/tec/css-3.png" width={100} height={100} className='w-20' alt="Frontend logo" />
                             <Image src="/img/tec/sass.png" width={100} height={100} className='w-20' alt="Frontend logo" />
@@ -23,7 +23,7 @@ const Skills = () => {
                 <div className="card w-full bg-primary text-primary-content">
                     <div className="card-body">
                         <h2 className="card-title">Backend</h2>
-                        <div className="grid grid-cols-2 gap-3 md:grid-cols-4 lg:grid-cols-6">
+                        <div className="grid grid-cols-2 gap-3 md:grid-cols-4 lg:grid-cols-6 place-items-center">
                             <Image src="/img/tec/c-sharp.png" width={100} height={100} className='w-20' alt="Backend logo" />
                             <Image src="/img/tec/py.png" width={100} height={100} className='w-20' alt="Backend logo" />
                             <Image src="/img/tec/php.png" width={100} height={100} className='w-20' alt="Backend logo" />
@@ -33,6 +33,25 @@ const Skills = () => {
                             <Image src="/img/tec/sql-server.png" width={100} height={100} className='w-20' alt="Backend logo" />
                             <Image src="/img/tec/mongo.png" width={100} height={100} className='w-20' alt="Backend logo" />
                             <Image src="/img/tec/fire.png" width={100} height={100} className='w-20' alt="Backend logo" />
+                        </div>
+                    </div>
+                </div>
+                <div className="card w-full min-h-full bg-primary text-primary-content">
+                    <div className="card-body">
+                        <h2 className="card-title">Movil</h2>
+                        <div className="grid grid-cols-2 gap-3 md:grid-cols-4 lg:grid-cols-6 place-items-center">
+                            <Image src="/img/tec/react-native.svg" width={100} height={100} className='w-20' alt="Movil logo" />
+                        </div>
+                    </div>
+                </div>
+                <div className="card w-full min-h-full bg-primary text-primary-content">
+                    <div className="card-body">
+                        <h2 className="card-title">Otros</h2>
+                        <div className="grid grid-cols-2 gap-3 md:grid-cols-4 lg:grid-cols-6 place-items-center">
+                            <Image src="/img/tec/Adobe_Illustrator_CC_icon.png" width={100} height={100} className='w-20' alt="Otros logo" />
+                            <Image src="/img/tec/Matplotlib_icon.png" width={100} height={100} className='w-20' alt="Otros logo" />
+                            <Image src="/img/tec/Pandas_logo.png" width={100} height={100} className='w-20' alt="Otros logo" />
+                            <Image src="/img/tec/NumPy_logo_2020.png" width={100} height={100} className='w-20' alt="Otros logo" />
                         </div>
                     </div>
                 </div>
