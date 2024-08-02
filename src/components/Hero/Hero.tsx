@@ -43,7 +43,7 @@ const Hero = () => {
         <Toaster />
         <div className="hero min-h-screen bg-base-200 max-w-full" id="hero">
             <div className="hero-content flex-col lg:flex-row w-4/5">
-                <Image src="/img/me/1.jpeg" alt="Foto de perfil" width={300} height={300} className="rounded-lg shadow-2xl mr-7" />
+                <Image src="/img/me/1.jpg" alt="Foto de perfil" width={300} height={300} className="rounded-lg shadow-2xl mr-7" />
                 <div>
                 <h1 className="text-5xl font-bold">Software Developer!</h1>
                 <p className="py-6">Hola, soy Luis Carlos Chaverra, Desarrollador con enfoque en el mundo web y movil, Siempre estoy dispuesto a asumir nuevos desafíos y a trabajar en proyectos emocionantes que me permitan mejorar mis habilidades y expandir mis horizontes.</p>
