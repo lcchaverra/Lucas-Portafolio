@@ -46,7 +46,7 @@ const Hero = () => {
                 <Image src="/img/me/1.jpg" alt="Foto de perfil" width={300} height={300} className="rounded-lg shadow-2xl mr-7" />
                 <div>
                 <h1 className="text-5xl font-bold">Software Developer!</h1>
-                <p className="py-6">Hola, soy Luis Carlos Chaverra, Desarrollador con enfoque en el mundo web y movil, Siempre estoy dispuesto a asumir nuevos desafíos y a trabajar en proyectos emocionantes que me permitan mejorar mis habilidades y expandir mis horizontes.</p>
+                <p className="py-6">Hola, soy Luis Carlos Chaverra, un ingeniero de sistemas apasionado por el Desarrollo de software FullStack, Busco constantemente oportunidades para crecer y mantenerme al tanto de las últimas tecnologías. Comprometido con el aprendizaje continuo, estoy listo para contribuir en proyectos desafiantes</p>
                 <button className="btn btn-primary" onClick={()=> (document.getElementById('contact_modal') as HTMLDialogElement)?.showModal()}>Contactame</button>
                 </div>
             </div>

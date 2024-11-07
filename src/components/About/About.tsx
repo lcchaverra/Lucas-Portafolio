@@ -58,7 +58,7 @@ const About = () => {
                                 <input type="radio" id="experience-2" name="my-accordion-3" placeholder="."/> 
                                 <label htmlFor="experience-2"></label>    
                                 <div className="collapse-title text-xl font-medium">
-                                    Software Developer | Facnet (Mar 2022 - Sep 2022)
+                                    Software Developer | Facnet (Mar 2021 - Sep 2022)
                                 </div>
                                 <div className="collapse-content"> 
                                     <p>Participación en proyectos de desarrollo de software, ocupando el Rol de Desarrollador Fullstack, En cada proyecto, pude satisfacer los requisitos del cliente y alcanzar los objetivos fijados, Hice uso de tecnologías como HTML, CSS, JavaScript, PHP, SQL, entre otras, para crear soluciones eficaces y de primera calidad.</p>
