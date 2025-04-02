@@ -30,9 +30,10 @@ const Skills = () => {
                             <Image src="/img/tec/net.png" width={100} height={100} className='w-20' alt="Backend logo" />
                             <Image src="/img/tec/node.png" width={100} height={100} className='w-20' alt="Backend logo" />
                             <Image src="/img/tec/ex.png" width={100} height={100} className='w-20' alt="Backend logo" />
+                            <Image src="/img/tec/java.png" width={100} height={100} className='w-20' alt="Backend logo" />
+                            <Image src="/img/tec/Spring_Boot.png" width={100} height={100} className='w-20' alt="Backend logo" />
                             <Image src="/img/tec/sql-server.png" width={100} height={100} className='w-20' alt="Backend logo" />
                             <Image src="/img/tec/mongo.png" width={100} height={100} className='w-20' alt="Backend logo" />
-                            <Image src="/img/tec/fire.png" width={100} height={100} className='w-20' alt="Backend logo" />
                         </div>
                     </div>
                 </div>
@@ -48,6 +49,7 @@ const Skills = () => {
                     <div className="card-body">
                         <h2 className="card-title">Otros</h2>
                         <div className="grid grid-cols-2 gap-3 md:grid-cols-4 lg:grid-cols-6 place-items-center">
+                            <Image src="/img/tec/docker.webp" width={100} height={100} className='w-20' alt="Otros logo" />
                             <Image src="/img/tec/Adobe_Illustrator_CC_icon.png" width={100} height={100} className='w-20' alt="Otros logo" />
                             <Image src="/img/tec/Matplotlib_icon.png" width={100} height={100} className='w-20' alt="Otros logo" />
                             <Image src="/img/tec/Pandas_logo.png" width={100} height={100} className='w-20' alt="Otros logo" />
