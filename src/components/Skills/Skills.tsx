@@ -49,6 +49,7 @@ const Skills = () => {
                     <div className="card-body">
                         <h2 className="card-title">Otros</h2>
                         <div className="grid grid-cols-2 gap-3 md:grid-cols-4 lg:grid-cols-6 place-items-center">
+                            <Image src="/img/tec/aws.png" width={100} height={100} className='w-20' alt="Otros logo" />
                             <Image src="/img/tec/docker.webp" width={100} height={100} className='w-20' alt="Otros logo" />
                             <Image src="/img/tec/Adobe_Illustrator_CC_icon.png" width={100} height={100} className='w-20' alt="Otros logo" />
                             <Image src="/img/tec/Matplotlib_icon.png" width={100} height={100} className='w-20' alt="Otros logo" />
