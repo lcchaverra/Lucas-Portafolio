@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 const Skills = () => {
-  return (
+    return (
     <div className='w-full flex flex-col justify-center items-center bg-base-300' id='skills'>
         <h2 className="text-4xl font-bold">Habilidades</h2>
             <div className='w-full py-10 px-10 md:px-20 lg:px-32 grid grid-cols-1 gap-4 sm:grid-cols-2 place-content-center place-items-center'>
@@ -11,12 +11,12 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-3 md:grid-cols-4 lg:grid-cols-6 place-items-center">
                             <Image src="/img/tec/html-5.png" width={100} height={100} className='w-20' alt="Frontend logo" />
                             <Image src="/img/tec/css-3.png" width={100} height={100} className='w-20' alt="Frontend logo" />
-                            <Image src="/img/tec/sass.png" width={100} height={100} className='w-20' alt="Frontend logo" />
                             <Image src="/img/tec/js.png" width={100} height={100} className='w-20' alt="Frontend logo" />
                             <Image src="/img/tec/Ts.png" width={100} height={100} className='w-20' alt="Frontend logo" />
                             <Image src="/img/tec/react.png" width={100} height={100} className='w-20' alt="Frontend logo" />
                             <Image src="/img/tec/Tailwind.png" width={100} height={100} className='w-20' alt="Frontend logo" />
                             <Image src="/img/tec/Next.js.png" width={100} height={100} className='w-20' alt="Frontend logo" />
+                            <Image src="/img/tec/Angular.png" width={100} height={100} className='w-20' alt="Frontend logo" />
                         </div>
                     </div>
                 </div>
@@ -25,15 +25,14 @@ const Skills = () => {
                         <h2 className="card-title">Backend</h2>
                         <div className="grid grid-cols-2 gap-3 md:grid-cols-4 lg:grid-cols-6 place-items-center">
                             <Image src="/img/tec/c-sharp.png" width={100} height={100} className='w-20' alt="Backend logo" />
-                            <Image src="/img/tec/py.png" width={100} height={100} className='w-20' alt="Backend logo" />
-                            <Image src="/img/tec/php.png" width={100} height={100} className='w-20' alt="Backend logo" />
+                            
                             <Image src="/img/tec/net.png" width={100} height={100} className='w-20' alt="Backend logo" />
                             <Image src="/img/tec/node.png" width={100} height={100} className='w-20' alt="Backend logo" />
                             <Image src="/img/tec/ex.png" width={100} height={100} className='w-20' alt="Backend logo" />
                             <Image src="/img/tec/java.png" width={100} height={100} className='w-20' alt="Backend logo" />
                             <Image src="/img/tec/Spring_Boot.png" width={100} height={100} className='w-20' alt="Backend logo" />
                             <Image src="/img/tec/sql-server.png" width={100} height={100} className='w-20' alt="Backend logo" />
-                            <Image src="/img/tec/mongo.png" width={100} height={100} className='w-20' alt="Backend logo" />
+                            <Image src="/img/tec/mysql.svg" width={100} height={100} className='w-20' alt="Backend logo" />
                         </div>
                     </div>
                 </div>
@@ -51,16 +50,13 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-3 md:grid-cols-4 lg:grid-cols-6 place-items-center">
                             <Image src="/img/tec/aws.png" width={100} height={100} className='w-20' alt="Otros logo" />
                             <Image src="/img/tec/docker.webp" width={100} height={100} className='w-20' alt="Otros logo" />
-                            <Image src="/img/tec/Adobe_Illustrator_CC_icon.png" width={100} height={100} className='w-20' alt="Otros logo" />
-                            <Image src="/img/tec/Matplotlib_icon.png" width={100} height={100} className='w-20' alt="Otros logo" />
-                            <Image src="/img/tec/Pandas_logo.png" width={100} height={100} className='w-20' alt="Otros logo" />
-                            <Image src="/img/tec/NumPy_logo_2020.png" width={100} height={100} className='w-20' alt="Otros logo" />
+                            <Image src="/img/tec/git.png" width={100} height={100} className='w-20' alt="Otros logo" />
                         </div>
                     </div>
                 </div>
             </div>
     </div>
-  )
+    )
 }
 
 export default Skills

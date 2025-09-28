@@ -41,12 +41,17 @@ const Hero = () => {
   return (
     <>
         <Toaster />
-        <div className="hero min-h-screen bg-base-200 max-w-full" id="hero">
+        <div className="hero min-h-screen bg-base-100 max-w-full" id="hero">
             <div className="hero-content flex-col lg:flex-row w-4/5">
                 <Image src="/img/me/1.jpg" alt="Foto de perfil" width={300} height={300} className="rounded-lg shadow-2xl mr-7" />
                 <div>
-                <h1 className="text-5xl font-bold">Software Developer!</h1>
-                <p className="py-6">Hola, soy Luis Carlos Chaverra, ingeniero de sistemas especializado en el desarrollo de software Full Stack. Mi pasión por la tecnología me impulsa a mantenerme a la vanguardia de las últimas tendencias y herramientas. Con compromiso y entusiasmo, estoy listo para enfrentar desafíos técnicos que contribuyan al éxito de proyectos innovadores.</p>
+                <h1 className="text-4xl font-bold">Luis Carlos Chaverra Córdoba</h1>
+                <h2 className="text-2xl font-semibold pt-2">Ingeniero de Sistemas · Fullstack & Mobile Developer</h2>
+                <p className="py-6">
+                    Hola, soy Luis Carlos Chaverra, ingeniero de sistemas y desarrollador Fullstack & Mobile. 
+                    Me apasiona crear soluciones que transforman procesos y mejoran la experiencia del usuario,
+                    con compromiso y entusiasmo, estoy listo para enfrentar desafíos técnicos que generen impacto real.
+                </p>
                 <button className="btn btn-primary" onClick={()=> (document.getElementById('contact_modal') as HTMLDialogElement)?.showModal()}>Contactame</button>
                 </div>
             </div>
@@ -70,7 +75,7 @@ const Hero = () => {
                         <textarea placeholder="¿Cuentame en que te ayudo?" className="textarea textarea-bordered w-full" name="Texto" required></textarea>
                     </div>
                     <div className="modal-action">
-                        <button className="btn bg-primary" type="submit">Enviar</button>
+                        <button className="btn bg-primary text-white" type="submit">Enviar</button>
                         <button className="btn" type="button" onClick={()=> (document.getElementById('contact_modal') as HTMLDialogElement).close()}>Cerrar</button>
                     </div>
                 </form>
