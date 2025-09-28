@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
             </nav> 
             <aside>
-                <p>Copyright © {new Date().getFullYear()} - Luis Carlos Chaverra Córdoba</p>
+                <p>Copyright © {new Date().getFullYear()} - Luis Carlos Chaverra Córdoba | All rights reserved</p>
             </aside>
         </footer>
     </>
