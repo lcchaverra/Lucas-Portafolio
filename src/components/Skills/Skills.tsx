@@ -16,7 +16,7 @@ const Skills = () => {
                             <Image src="/img/tec/react.png" width={100} height={100} className='w-20' alt="Frontend logo" />
                             <Image src="/img/tec/Tailwind.png" width={100} height={100} className='w-20' alt="Frontend logo" />
                             <Image src="/img/tec/Next.js.png" width={100} height={100} className='w-20' alt="Frontend logo" />
-                            <Image src="/img/tec/Angular.png" width={100} height={100} className='w-20' alt="Frontend logo" />
+                            <Image src="/img/tec/angular.png" width={100} height={100} className='w-20' alt="Frontend logo" />
                         </div>
                     </div>
                 </div>
